@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css' rel='stylesheet'>
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>İrem ÖZTÜRK </title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">watashi</a>
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-heart'></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user-circle'></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book-heart'></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <i class='bx bx-briefcase'></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bxs-message-rounded-check'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!---------Tema değiştirmek için-->
+                <i class='bx bx-moon' change-theme id="theme-button"></i>
+            </nav>
+            
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+
+            <!--------------------------GİRİŞ EKRANI---------------------------->
+            <section class="home section" id="home">
+                <div class="home__container container grid">                  
+                    <div class="home__data">
+                        <span class="home__greeting">Merhaba, ben İrem ÖZTÜRK</span>
+                        <!--<h1 class="home__name">İrem ÖZTÜRK</h1> -->
+                        <h3 class="home__education">Bilgisayar Mühendisi</h3>
+
+                        <div class="home__buttons">
+                            <a download="" href="iremöztürkcv.pdf" class="button button--ghost"> 
+                                CV İNDİR
+                                <i class='bx bx-download'></i>
+                            </a>
+                            <a href="#about" class ="button">Hakkımda</a>
+                        </div>
+                    </div>
+                    
+                    <div class="home__handle">
+                        <img src="image/ben.png" alt="" class="home__img">
+                        <div class="home__social ">
+                            <a href="https://github.com/watashiwairem" class="home__social-link"target=”_blank>
+                                <i class='bx bxl-github'></i>
+                            </a>
+    
+                            <a href="https://www.linkedin.com/in/irem-öztürk-4b246020a/" class="home__social-link" target=”_blank>
+                                <i class='bx bxl-linkedin' ></i>
+                            </a>
+                    
+                            <a href="https://www.instagram.com/watashiwairem_/" class="home__social-link" target=”_blank>
+                                <i class='bx bxl-instagram' ></i>
+                            </a>
+                            
+                            <a href="" class="home__social-link" target=”_blank>
+                                <i class='bx bxl-discord'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class="section__subtitle">My Intro</span>
+                <h2 class="section__title">Hakkımda</h2>
+
+                <div class="about__container container grid">
+                   <div class="about__data">
+                    <div class="about__info">
+
+                        <div class="about__box">
+                            <i class='bx bxs-school about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">3 Months Working</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-data about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">6 Projects</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Ben İrem ÖZTÜRK. Karadeniz Teknik Üniversitesi Bilgisayar mühendisliği 4. sınıf öğrencisiyim. Programlamaya ilgi
+                        duyuyorum ve kendimi bu alanda geliştirmek istiyorum. Okulda takım arkadaşlarımla birlikte yaptığım projeler bulunmaktadır. Proje detaylarına GITHUB linki üzerinden ulaşabilirsiniz. https://github.com/watashiwairem
+                    </p>
+
+                   </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <span class="section__subtitle">My abilities</span>
+                <h2 class="section__title">My Experience</h2>
+
+                <div class="skills__container container grid">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Computer Engineering</h3>
+                        
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxl-html5 skill-logo'></i>
+                                    <div>
+                                        <h3 class="skills__name">HTML/CSS</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxl-c-plus-plus skill-logo'></i>
+                                    <div>
+                                        <h3 class="skills__name">C/C++</h3>
+                                        <span class="skills__level">Beginner</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxl-javascript skill-logo' ></i>
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Beginner</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxl-python skill-logo' ></i>
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxl-microsoft skill-logo'></i>
+                                    <div>
+                                        <h3 class="skills__name">MC OFFICE</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxl-unity skill-logo'></i>
+                                    <div> 
+                                        <h3 class="skills__name">Unity</h3>
+                                        <span class="skills__level">Beginner</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Projects</h3>
+                        
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <div>
+                                        <i class='bx bxl-python skill-logo' ></i>
+                                        <h3 class="skills__name">Drawing Robot</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div>
+                                        <i class='bx bxl-html5 skill-logo'></i>
+                                        <h3 class="skills__name">KTU HOME PAGE</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div>
+                                        <i class='bx bxl-javascript skill-logo'></i>
+                                        <h3 class="skills__name">Online Exam</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <div>
+                                        <i class='bx bxl-php skill-logo'></i>
+                                        <h3 class="skills__name">Air Direction Root MAP</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div>
+                                        <i class='bx bxl-php skill-logo'></i>
+                                        <h3 class="skills__name">GOOGLE MAP Dijkstra Algorithm</h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div>
+                                        <i class='bx bxl-c-plus-plus skill-logo' ></i>
+                                        <h3 class="skills__name">Football Virtual League Application</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== WORK ===============-->
+            <section class="work section" id="work">
+                <span class="sectin__subtitle"></span>
+                <h2 class="section__title">Recent Works</h2>
+
+                <div class="work__filters">
+                    <span class="work__item active-work" data-filter='all'>All</span>
+                    <span class="work__item" data-filter='.web'>Web</span>
+                    <span class="work__item" data-filter='.python'>Python</span>
+                </div>
+
+                <div class="work__container container grid">
+                    <div class="work__card mix python">
+                        <img src="image/jti.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">Intern-IT</h3>
+
+                        <a href="#" class="work__button">
+                            Demo <i class='bx bx-chevron-right work__icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix web">
+                        <img src="image/samm.png" alt="" class="work__img">
+
+                        <h3 class="work__title">Intern-Web Developer</h3>
+
+                        <a href="#" class="work__button">
+                            Demo <i class='bx bx-chevron-right work__icon'></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== REFERENCES ===============-->
+            <section class="references section" id="references">
+                <h2 class="section__title">References</h2>
+                <div class="references__container container grid">
+                    <div class="references__data">
+                        <div class="references__info">
+    
+                            <div class="references__box">
+                                <i class='bx bx-briefcase'></i>
+                                <h3 class="references__title">Murat CEYHAN</h3>
+                                <span class="references__subtitle">EM Cluster IT Director | JTI</span>
+                            </div>
+    
+                            <div class="references__box">
+                                <i class='bx bx-briefcase'></i>
+                                <h3 class="references__title">Furkan BALCI</h3>
+                                <span class="references__subtitle">Product Development Engineer | FORD OTOSAN</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </section>
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Get In Touch</span>
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Message Me</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class='bx bx-envelope contact__card-icon' ></i> 
+                                <h3 class="contact__card-title">EMAIL</h3>
+                                <span class="contact__card-data">iremozturkk16@gmail.com</span>
+                                
+                                <a href="mailto:iremozturkk16@gmail.com" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-chevron-right contact__button-icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">watashi</h1>
+            </div>
+        </footer>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="main.js"></script>
+    </body>
+</html>
